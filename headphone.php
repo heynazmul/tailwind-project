@@ -1,3 +1,62 @@
+<style>
+.music-singnal {
+    display: block;
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-95deg);
+    @media #{$lg-layout} {
+        top: 44%;
+        left: 40%;
+    } 
+    @media #{$large-mobile} {
+        display: none;
+    }
+
+    .item-circle {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-color: var(--color-chart03);
+        border-style: solid;
+        border-width: 1px 4px 0 0;
+        border-radius: 0 100% 0 0;
+        opacity: 0;
+        animation: signalanimation 2s infinite;
+
+        &.circle-1 {
+            animation-delay: 800ms;
+        }
+        &.circle-2 {
+            width: 80px;
+            height: 80px;
+            animation-delay: 600ms;
+        }
+        &.circle-3 {
+            width: 60px;
+            height: 60px;
+            animation-delay: 400ms;
+        }
+        &.circle-4 {
+            width: 40px;
+            height: 40px;
+            animation-delay: 200ms;
+        }
+        &.circle-5 {
+            width: 20px;
+            height: 20px;
+            animation-delay: 0ms;
+        }
+    }
+}
+
+
+</style>
 <section class="mx-10 px-20 bg-slate-200">
 	<div class="sm:container sm:mx-auto">
 		<div class="grid grid-cols-12">
@@ -20,9 +79,7 @@
 				</div>
 			</div>
 			</div>
-			<div class="col-span-6">
-				<img src="images/demo/headphone.png" alt="">
-			</div>
 		</div>
+		<button type="button" class="text-white bg-blue-400 rounded-full mt-6 px-5 py-2 scale-75 hover:scale-100 ">Check it out!</button>
 	</div>
 </section>
