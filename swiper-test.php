@@ -24,7 +24,7 @@
 
 
         /* Center slide text vertically */
-        display: -webkit-box;
+       { display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
@@ -84,7 +84,7 @@
 		<div class="swiper mySwiper static">
 		  <div class="swiper-wrapper">
 			<div class="swiper-slide p-10 border-1">
-					<img src="images/demo/category-1.png" class="image " alt="">
+					<img src="images/demo/category-1.png" class=" w-full  " alt="">
 				<h6>Phone</h6>
 			</div>
 				<div class="swiper-slide p-10 border-1">
