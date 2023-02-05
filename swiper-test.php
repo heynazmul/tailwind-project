@@ -38,12 +38,10 @@
         align-items: center;
       }
 
-      .swiper-slide img {
+       .swiper-slide img {
         display: block;
-        width: 100%;
-        height: 100%;
         object-fit: cover;
-      }
+      } 
 	  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
 		content: '\2192' !important;
 		color: black;
@@ -64,6 +62,11 @@
 		top: 54%;
 		
 	}
+	.important{
+		width: 100% !important;
+		margin-right: 0px !important;
+
+	}
     </style>
   </head>
 
@@ -83,86 +86,69 @@
 	</div>
 		<div class="swiper mySwiper static">
 		  <div class="swiper-wrapper">
-			<div class="swiper-slide p-10 border-1">
-					<img src="images/demo/category-1.png" class=" w-full  " alt="">
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-2.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-3.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-4.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-5.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-6.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
-			</div>	<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-7.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-8.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-8.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-1.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-1.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-1.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-1.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
-				<div class="swiper-slide p-10 border-1">
-				<div>
-					<img src="images/demo/category-1.png" class="image " alt="">
-				</div>
-				<h6>Phone</h6>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
+			</div>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
+			</div>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
+			</div>
+			<div class="swiper-slide important border-1">
+					<img src="images/demo/category-1.png" class="image" alt="">
+				<h6>Phone 01</h6>
 			</div>
 		  </div>
 		</div>
