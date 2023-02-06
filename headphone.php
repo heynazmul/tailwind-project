@@ -79,6 +79,9 @@
 				</div>
 			</div>
 			</div>
+			<div class="col-span-6">
+				<img src="images/demo/headphone.png" alt="headphone pic">
+			</div>
 		</div>
 		<button type="button" class="text-white bg-blue-400 rounded-full mt-6 px-5 py-2 scale-75 hover:scale-100 ">Check it out!</button>
 	</div>

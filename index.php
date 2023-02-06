@@ -23,8 +23,9 @@
 			<!-- Nav -->
 			<?php //include ('main-nav.php');?>
 			<?php include('main-nav2.php');?>
-			<?php include('swiper-test.php');?>
+			<?php include('swipertest.php');?>
 			<?php include('headphone.php');?>
+			<?php include('card.php');?>
         </header>
         <main>			
 		</main>
