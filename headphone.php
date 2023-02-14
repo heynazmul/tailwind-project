@@ -59,7 +59,7 @@
 </style>
 <section class="mx-10 px-20 bg-slate-200">
 	<div class="sm:container sm:mx-auto">
-		<div class="grid grid-cols-12">
+		<div class="grid grid-cols-12 mb-6">
 			<div class="col-span-6">
 				<div class="flex space-x-2 py-5">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="30" width="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="bg-pink-500 rounded-full p-1">
@@ -83,6 +83,6 @@
 				<img src="images/demo/headphone.png" alt="headphone pic">
 			</div>
 		</div>
-		<button type="button" class="text-white bg-blue-400 rounded-full mt-6 px-5 py-2 scale-75 hover:scale-100 ">Check it out!</button>
+		<button type="button" class="font-bold text-white bg-blue-600 rounded my-1 mx-2 px-8 py-4 hover:m-0 hover:px-10 hover:py-5 transition-all duraiton-700">Check it out!</button>
 	</div>
 </section>
