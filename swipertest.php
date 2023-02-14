@@ -75,7 +75,7 @@
 				<p class="font-semibold text-pink-500 ">Categories</p>
 			</div>
 			
-			<h1 class="text-2xl font-bold pb-10">Browse by category</h1>
+			<h1 class="text-2xl font-bold pb-10">new by category</h1>
 		</div>
 		<!-- Swiper -->
 		<div class="my-20 relative">
