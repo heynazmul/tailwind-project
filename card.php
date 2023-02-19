@@ -14,8 +14,8 @@
 	  <div class="w-72 h-fit group">
 		<div class="relative">
 			<div class="relative h-96 w-72">
-			  <img class="absolute ease-in opacity-100 group-hover:opacity-0 transition duration-700 left-0 bottom-0  w-full object-cover" src="https://images.unsplash.com/photo-1676321685222-0b527e61d5c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
-			  <img class="absolute opacity-0 group-hover:opacity-100 left-0 bottom-0 w-full transition duration-700" src="https://images.unsplash.com/photo-1676218073713-f598de6873f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+			  <img class="absolute ease-in opacity-100 group-hover:opacity-0 transition duration-700 left-0 bottom-0  w-full object-cover" src="images/demo/product-08.png" alt="">
+			  <img class="absolute opacity-0 group-hover:opacity-100 left-0 bottom-0 w-full transition duration-700" src="images/demo/product-01.png" alt="">
 			</div>
 			<div class="absolute h-full w-full  flex items-end justify-center mb-10 -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-700">
 			<button class="bg-black text-white py-2 px-5">Add to cart</button>
