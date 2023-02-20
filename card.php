@@ -9,16 +9,21 @@
 		<h1 class="text-2xl font-bold pb-10">Explore our Products</h1>
 	</div>	
 	<div>
-		<div class="w-fit p-12">
+		<div class="mx-auto flex justify-center">
   <!-- Card -->
 	  <div class="w-72 h-fit group">
 		<div class="relative">
 			<div class="relative h-96 w-72">
-			  <img class="absolute ease-in opacity-100 group-hover:opacity-0 transition duration-700 left-0 bottom-0  w-full object-cover" src="images/demo/product-08.png" alt="">
-			  <img class="absolute opacity-0 group-hover:opacity-100 left-0 bottom-0 w-full transition duration-700" src="images/demo/product-01.png" alt="">
+			  <img class="absolute ease-in opacity-100 group-hover:opacity-0 transition duration-700 left-0 bottom-0  w-full object-cover" src="images/demo/product-01.png" alt="">
+			  <img class="absolute opacity-0 group-hover:opacity-100 left-0 bottom-0 w-full transition duration-700" src="images/demo/product-08.png" alt="">
 			</div>
 			<div class="absolute h-full w-full  flex items-end justify-center mb-10 -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-700">
-			<button class="bg-black text-white py-2 px-5">Add to cart</button>
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 bg-slate-300 p-2 cursor-pointer">
+			  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+			  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+			</svg>
+			<button class="bg-black text-white rounded my-1 mx-2 px-8 py-4 hover:m-0 hover:px-10 hover:py-5 transition-all duraiton-700">Add to cart</button>
+			
 			</div>
 		</div>
 		<h2 class="mt-3 text-xl capitalize">Straw Hat</h2>
