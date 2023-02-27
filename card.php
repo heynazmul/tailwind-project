@@ -18,13 +18,24 @@
 			  <img class="absolute opacity-0 group-hover:opacity-100 left-0 bottom-0 w-full transition duration-700" src="images/demo/product-08.png" alt="">
 			</div>
 			<div class="absolute h-full w-full  flex items-end justify-center mb-10 -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-700">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 bg-slate-300 p-2 cursor-pointer hover:p-3 ">
-			  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-			  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-			</svg>
+			<div class="cursor-pointer p-2 hover:p-3 bg-red-300 m-1 hover:m-0">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" h-6 w-6">
+				  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+				  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+				</svg>
+			</div>
 			<button class="bg-red-300 text-white rounded my-1 mx-2 px-6 py-2 hover:m-0 hover:px-7 hover:py-3 transition-all duraiton-700">Add to cart</button>
 			</div>
 		</div>
+		<div>
+		<div class="flex flex-wrap">
+			 <div class="flex items-center mr-4">
+				<input id="red-radio" type="radio" value="" name="colored-radio" class="w-4 h-4 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 rounded-full">
+				<label for="red-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
+			</div>
+		</div>
+	  </div>
+	  
 	  </div>
 	</div>
 	</div>
