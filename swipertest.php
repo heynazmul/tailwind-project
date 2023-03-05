@@ -189,8 +189,42 @@
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
-        }
+        },
+		breakpoints: {
+			  500: {
+				slidesPerView: 1,
+			  },
+			  768: {
+				slidesPerView: 2,
+			  },
+			  1024: {
+				slidesPerView: 4,
+			  },
+			},
       });
     </script>
+		<script>
+		  var swiper = new Swiper("#Swiper-featured-ads-2", {
+			slidesPerView: 3,
+			spaceBetween: 32,
+			centeredSlides: true,
+			loop: true,
+			 navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			 },
+			breakpoints: {
+			  500: {
+				slidesPerView: 1,
+			  },
+			  768: {
+				slidesPerView: 2,
+			  },
+			  1024: {
+				slidesPerView: 4,
+			  },
+			},
+		  });
+		</script>
   </body>
 </html>
