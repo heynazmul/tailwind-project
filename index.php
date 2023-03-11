@@ -26,15 +26,87 @@
 			<?php include('swipertest.php');?>
 			<?php include('headphone.php');?>
 			<?php include('card.php');?>
+			<?php include('testmonial.php');?>
+            <?php include('swipercard2.php');?>
+            <?php include('swipercard.php');?>
         </header>
         <main>			
 		</main>
         <footer>
 			<?php include('footer.php'); ?>
         </footer>
+		<!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper("#swipertest", {
+        slidesPerView: 7,
+        spaceBetween: 75,
+        slidesPerGroup: 7,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        },
+		breakpoints: {
+			  500: {
+				slidesPerView: 1,
+			  },
+			  768: {
+				slidesPerView: 2,
+			  },
+			  1024: {
+				slidesPerView: 4,
+			  },
+			},
+      });
+    </script>
+		<script>
+		  var swiper = new Swiper("#Swiper-featured-ads-2", {
+			slidesPerView: 3,
+			spaceBetween: 32,
+			centeredSlides: true,
+			loop: true,
+			 navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			 },
+			breakpoints: {
+			  500: {
+				slidesPerView: 1,
+			  },
+			  768: {
+				slidesPerView: 2,
+			  },
+			  1024: {
+				slidesPerView: 4,
+			  },
+			},
+		  });
+		</script>
+	<script>
+	 var swiper = new Swiper("#swipercard", {
+        slidesPerView: 7,
+        spaceBetween: 30,
+        loop: true,
+		breakpoints: {
+			  500: {
+				slidesPerView: 1,
+			  },
+			  768: {
+				slidesPerView: 2,
+			  },
+			  1024: {
+				slidesPerView: 4,
+			  },
+			},
+      });
+  </script>
 		
     </body>
 </html>

@@ -82,42 +82,43 @@
 			
 			<div class="swiper-button-next bg-red-50 p-5"></div>
 			<div class="swiper-button-prev bg-red-50 p-5"></div>
-			<div class="swiper mySwiper static bg-green">
+			<div id="swipertest" class="swiper  static bg-green">
 			  <div class="swiper-wrapper">
 				<div class="swiper-slide important border-1">
 						<img src="images/demo/category-1.png" class=" image  " alt="">
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-2.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-3.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-4.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-5.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-6.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
-				</div>	<div class="swiper-slide important border-1">
+				</div>	
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-7.png" class="image " alt="">
 					</div>
@@ -130,37 +131,37 @@
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-1.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-1.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-1.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-1.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-1.png" class="image " alt="">
 					</div>
 					<h6>Phone</h6>
 				</div>
-					<div class="swiper-slide important border-1">
+				<div class="swiper-slide important border-1">
 					<div>
 						<img src="images/demo/category-1.png" class="image " alt="">
 					</div>
@@ -171,60 +172,6 @@
 		</div>
 	</div>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 7,
-        spaceBetween: 75,
-        slidesPerGroup: 7,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        },
-		breakpoints: {
-			  500: {
-				slidesPerView: 1,
-			  },
-			  768: {
-				slidesPerView: 2,
-			  },
-			  1024: {
-				slidesPerView: 4,
-			  },
-			},
-      });
-    </script>
-		<script>
-		  var swiper = new Swiper("#Swiper-featured-ads-2", {
-			slidesPerView: 3,
-			spaceBetween: 32,
-			centeredSlides: true,
-			loop: true,
-			 navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			 },
-			breakpoints: {
-			  500: {
-				slidesPerView: 1,
-			  },
-			  768: {
-				slidesPerView: 2,
-			  },
-			  1024: {
-				slidesPerView: 4,
-			  },
-			},
-		  });
-		</script>
+    
   </body>
 </html>
