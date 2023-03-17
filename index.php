@@ -29,6 +29,7 @@
 			<?php include('testmonial.php');?>
             <?php include('swipercard2.php');?>
             <?php include('swipercard.php');?>
+			<?php include('store.php');?>
         </header>
         <main>			
 		</main>
