@@ -1,6 +1,6 @@
 <section>
 	<div class="containar">
-		<div id="swipercard" class="swiper ">
+		<div draggable="true" id="swipercard" class="swiper ">
 			<div class="swiper-wrapper">
 			  <div class="swiper-slide">
 				<div class="w-72 h-fit group">
