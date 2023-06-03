@@ -1,97 +1,81 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-        <!-- font awesome -->
-        <link rel="stylesheet" href="css/all.css">
-        <!-- Tailwind CSS -->
-        <script src="https://cdn.tailwindcss.com"></script>
-		<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-        <title>Nazmul Hossain</title>
-		<style>
-			section{
-				padding-top:100px;
-				padding-bottom:75px;
-			}
-		</style>
-    </head>
-    <body >
-        <header>
-			<!-- Nav -->
+<?php include('baseurl.php'); ?>
 			<?php //include ('main-nav.php');?>
-			<?php include('main-nav2.php');?>
-			<?php include('swipertest.php');?>
+			<?php include ('header.php');?>
+			<?php include('slider.php');?>
+			<?php include('category-slider.php');?>
 			<?php include('headphone.php');?>
-			<?php include('card.php');?>
-			<?php include('testmonial.php');?>
-            <?php include('swipercard2.php');?>
-            <?php include('swipercard.php');?>
+			<?php //include('card.php');?>
+			<?php //include('testmonial.php');?>
+			<?php include('product2.php');?>
+            <?php include('arrivals.php');?>
 			<?php include('store.php');?>
-        </header>
-        <main>			
-		</main>
-        <footer>
-			<?php include('footer.php'); ?>
-        </footer>
-		<!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+			<?php include('footer.php');?>
+			<script defer src="<?php echo $baseurl;?>js/swiper-bundle.min.js"></script>
+			<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
+
     <script>
-      var swiper = new Swiper("#swipertest", {
-        slidesPerView: 7,
-        spaceBetween: 75,
+	//Category slider
+	/*
+	slidesPerView: 7,
+        spaceBetween: 30,
         slidesPerGroup: 7,
         loop: true,
+		loopFillGroupWithBlank: true,
+				breakpoints: {
+			  500: {
+				slidesPerView: 3,
+			  },
+			  768: {
+				slidesPerView: 4,
+			  },
+			  1024: {
+				slidesPerView: 7,
+			  },
+			},
         pagination: {
           el: ".swiper-pagination",
           clickable: true
         },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        },
-		breakpoints: {
-			  500: {
-				slidesPerView: 1,
-			  },
-			  768: {
-				slidesPerView: 2,
-			  },
-			  1024: {
-				slidesPerView: 4,
-			  },
-			},
+	
+	*/
+      var swiper = new Swiper("#homeCategory", {
+        loop:true,
+		slidesPerView: 4,        
+		slidesPerGroup: 1,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+
       });
     </script>
-		<script>
-		  var swiper = new Swiper("#Swiper-featured-ads-2", {
-			slidesPerView: 3,
-			spaceBetween: 32,
-			centeredSlides: true,
-			loop: true,
-			 navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			 },
-			breakpoints: {
-			  500: {
-				slidesPerView: 1,
-			  },
-			  768: {
-				slidesPerView: 2,
-			  },
-			  1024: {
-				slidesPerView: 4,
-			  },
-			},
-		  });
-		</script>
 	<script>
-	 var swiper = new Swiper("#swipercard", {
+	  var swiper = new Swiper("#Swiper-featured-ads-2", {
+		slidesPerView: 3,
+		spaceBetween: 32,
+		centeredSlides: true,
+		loop: true,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+		breakpoints: {
+		  500: {
+			slidesPerView: 1,
+		  },
+		  768: {
+			slidesPerView: 2,
+		  },
+		  1024: {
+			slidesPerView: 4,
+		  },
+		},
+	  });
+	</script>
+	<script>
+	 var swiper = new Swiper("#product", {
         slidesPerView: 7,
         spaceBetween: 30,
         loop: true,
@@ -108,6 +92,12 @@
 			},
       });
   </script>
-		
-    </body>
-</html>
+  <!--slider-->
+  <script>
+    var swiper = new Swiper("#home-slider", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+	  loop: true,
+    });
+  </script>

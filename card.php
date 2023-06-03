@@ -12,10 +12,10 @@
 		<div class="mx-auto flex justify-center">
 		  <!-- Card -->
 			<div class="w-72 h-fit group">
+				<div class="absolute top-0 right-0">
+					<p class="bg-blue-500 text-slate-100 ml-auto px-2 mt-20 rounded shadow-lg shadow-blue-500/50">50%off</p>
+				</div>
 				<div class="relative">
-					<div>
-						<span class="bg-blue-500 text-slate-100 ml-auto">50%off</span>
-					</div>
 					<div class="relative h-96 w-72">
 					  <img class="absolute h-96 ease-in opacity-100 group-hover:opacity-0 transition duration-700 left-0 bottom-0  w-full object-cover" src="images/demo/product-01.png" alt="">
 					  <img class="absolute  h-96 opacity-0 group-hover:opacity-100 left-0 bottom-0 w-full transition duration-700" src="images/demo/product-08.png" alt="">

@@ -1,4 +1,4 @@
-
+<!-- Products -->
 <div class="md:container md:mx-auto">
 	<div >
 		<div class="flex space-x-2 py-5">
@@ -8,8 +8,61 @@
 			<p class="font-bold text-indigo-600	 ">our product</p>
 		</div>
 		<h1 class="text-2xl font-bold pb-10">Explore our Products</h1>
-	</div>	
-	<div>
+	</div>
+	<div draggable="true" class="swiper " id="swipercard">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+		<div>
+		  <!-- Card -->
+			<div class="mx-auto flex justify-center">
+				<div class="w-72 h-fit group">
+					<div class="relative ">
+						<div class=" ">
+						  <img class="rounded-full scale-90 hover:scale-95  duration-500" src="images/demo/product-08.png" alt="">
+						</div>
+						<div class="absolute top-0 right-0">
+							<p class="bg-blue-500 text-slate-100 ml-auto px-2 mt-20 rounded shadow-lg shadow-blue-500/50">50%off</p>
+						</div>
+					</div>
+					<div class="flex justify-center mt-2">
+						<div class="flex items-center">
+							<input id="red-radio" type="radio" value="" name="colored-radio" class="w-4 h-4 text-red-300 bg-red-300 border-red-300 focus:ring-red-300 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+						</div>
+						<div class="flex items-center mx-2">
+							<input id="red-radio" type="radio" value="" name="colored-radio" class="w-4 h-4 text-red-600 bg-red-500 border-red-300 focus:ring-red-500 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+						</div>
+						<div class="flex items-center">
+							<input id="purple-radio" type="radio" value="" name="colored-radio" class="w-4 h-4 text-purple-600 bg-purple-500 border-purple-300 focus:ring-purple-500 dark:focus:ring-purple-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+						</div>
+					</div>
+					<div class="grid justify-items-center my-4">
+						<h5> <a href="#" class="no-underline text-slate-400 text-lg font-normal hover:text-blue-500">Google home </a></h5>
+						<div class="text-xl font-normal">
+							<span class="text-slate-400 mr-2">$60</span>
+							<span class="line-through">$45</span>
+						</div>
+					</div>
+					<div class=" h-full w-full  flex items-end justify-center mb-10">
+						<div class="cursor-pointer p-2 hover:p-3 bg-gray-50 m-1 hover:m-0 rounded transition-all duraiton-700">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" h-6 w-6">
+							  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+							  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+							</svg>
+						</div>
+						<div class="mt-2">
+							<button class=" bg-red-300 text-white rounded my-1 mx-2 px-6 py-2  hover:px-7 hover:py-3 transition-all duraiton-700">Add to cart</button>
+						</div>
+						<div class="cursor-pointer p-2 hover:p-3 bg-gray-50 m-1 hover:m-0 rounded transition-all duraiton-700">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+							  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+      <div class="swiper-slide"><div>
 	  <!-- Card -->
 		<div class="mx-auto flex justify-center">
 			<div class="w-72 h-fit group">
@@ -58,4 +111,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+	</div>
+    </div>
+  </div>
+</div>	
