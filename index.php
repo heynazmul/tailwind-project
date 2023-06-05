@@ -6,8 +6,12 @@
 			<?php include('headphone.php');?>
 			<?php //include('card.php');?>
 			<?php //include('testmonial.php');?>
-			<?php include('product2.php');?>
+			<?php //include('product1.php');?>
             <?php include('arrivals.php');?>
+            <?php include('whyus.php');?>
+            <?php include('card-image.php');?>
+            <?php include('newsletter.php');?>
+            <?php include('Popular-Cate.php');?>
 			<?php include('store.php');?>
 			<?php include('footer.php');?>
 			<script defer src="<?php echo $baseurl;?>js/swiper-bundle.min.js"></script>
