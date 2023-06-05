@@ -157,7 +157,7 @@
 		  <div class="shrink-0 whitespace-nowrap">
 			<a href="#">
 			  <span class="sr-only">Your Company</span>
-			  <img class="h-10 w-auto block shrink-0 " src="images/demo/logo.png" alt="">
+			  <img class="h-10 w-auto block shrink-0 " src=" <?php echo $baseurl;?>images/demo/logo.png" alt="">
 			</a>
 		  </div>
 			<div class="relative" x-data="{ open: false, focus: false }" @keydown.escape="onEscape">
@@ -449,7 +449,7 @@
 			<div>
 				<a href="#">
 				  <span class="sr-only">Your Company</span>
-				  <img class="h-12 w-full" src="images/demo/logo.png" alt="">
+				  <img class="h-12 w-full" src="<?php echo $baseurl;?>images/demo/logo.png" alt="">
 				</a>
 			</div>
 			<div class="">

@@ -223,7 +223,8 @@
 							</div>
 						</div>
 					</div>
-				</div><!-- div-01 --><div class="swiper-slide">
+				</div><!-- div-01 -->
+				<div class="swiper-slide">
 					<div class="w-72 h-fit group">
 						<div class="relative">
 							<div class="absolute top-0 right-0 z-50">

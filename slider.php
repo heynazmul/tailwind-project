@@ -30,7 +30,7 @@
 		<div class=" swiper-wrapper">
 			<div class="swiper-slide">
 				<div class="grid grid-cols-12">
-					<div class="col-span-5">
+					<div class="col-span-12 md:col-span-5 ">
 						<div class=" flex items-center gap-x-2 py-5">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" height="30" width="30" class="bg-pink-500 rounded-full text-white p-2">
 							  <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
@@ -85,7 +85,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-span-7">
+					<div class="col-span-12 md:col-span-7">
 						<div class="max-w-lg relative">
 							<div class="absolute inset-0 rounded-full bg-white flex flex-col items-center justify-center h-24 w-24 m-auto -top-60">
 								<p>From</p>

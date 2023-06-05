@@ -1,3 +1,3 @@
 <?php
-	$baseurl='http://localhost/tailwind-project/';
+	$baseurl='http://localhost/Build-By-Tailwind/layouts/';
 ?>

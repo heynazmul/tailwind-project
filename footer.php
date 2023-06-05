@@ -4,19 +4,19 @@
 		<div class="lg:container lg:mx-auto">
 			<div class="grid grid-cols-12 p-12">
 				<div class="col-span-full sm:col-span-6 lg:col-span-3 flex">
-					<img class="mt-4" src="images/demo/service1.png" alt="project01">
+					<img class="mt-4" src="<?php echo $baseurl;?>images/demo/service1.png" alt="project01">
 					<p class="font-medium p-3">Fast & Secure Delivery</p>
 				</div>
 				<div class="col-span-full sm:col-span-6 lg:col-span-3 flex">
-					<img class="mt-4" src="images/demo/service2.png" alt="project01">
+					<img class="mt-4" src="<?php echo $baseurl;?>images/demo/service2.png" alt="project01">
 					<p class="font-medium p-3">Fast & Secure Delivery</p>
 				</div>
 				<div class="col-span-full sm:col-span-6 lg:col-span-3 flex">
-					<img class="mt-4" src="images/demo/service3.png" alt="project01">
+					<img class="mt-4" src="<?php echo $baseurl;?>images/demo/service3.png" alt="project01">
 					<p class="font-medium p-3">Fast & Secure Delivery</p>
 				</div>
 				<div class="col-span-full sm:col-span-6 lg:col-span-3 flex">
-					<img class="mt-4" src="images/demo/service4.png" alt="project01">
+					<img class="mt-4" src="<?php echo $baseurl;?>images/demo/service4.png" alt="project01">
 					<p class="font-medium p-3">Fast & Secure Delivery</p>
 				</div>
 				<hr>
@@ -129,20 +129,19 @@
 							<span>Accept For</span>
 							<ul class="flex gap-x-5">
 								<li>
-									<img src="images/demo/cart-1.png" alt="">
+									<img src="<?php echo $baseurl;?>images/demo/cart-1.png" alt="">
 								</li>
 								<li>
-									<img src="images/demo/cart-2.png" alt="">
+									<img src="<?php echo $baseurl;?>images/demo/cart-2.png" alt="">
 								</li>
 								<li>
-									<img src="images/demo/cart-5.png" alt="">
+									<img src="<?php echo $baseurl;?>images/demo/cart-5.png" alt="">
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</footer>
 	<script defer src="<?php echo $baseurl;?>js/alpine.min.js"></script>

@@ -1,5 +1,5 @@
 <section>
-	<div class="md:container md:mx-auto">
+	<div class="sm:container sm:mx-auto">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 			<div class="relative overflow-hidden">
 			  <a class=" block bg-center rounded group" href="">
