@@ -1,5 +1,5 @@
 
- <header class="relative z-50 px-4 sm:px-8 md:px-16 lg:px-28 mx-auto">
+ <header class="relative px-4 sm:px-8 md:px-16 lg:px-28 mx-auto">
     <nav  class="sm:flex justify-between h-10 items-center">
         <div class="flex justify-center">
             <ul class="flex space-x-5">

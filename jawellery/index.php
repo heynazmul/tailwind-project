@@ -3,8 +3,11 @@
 	?>
 		<!--header-->
 		<?php include ('../header.php');?>
-			<?php include ('shop-no-slider.php');?>
-			<?php include ('shop-newsletter.php');?>
+			<?php include ('design.php');?>
+			<?php include ('jawellery-card.php');?>
+			<?php include ('jawellery-arrival.php');?>
+			<?php include ('jawellery-slider.php');?>
+			<?php include ('jawellery-newsletter.php');?>
 		<?php include ('../footer.php');?>
 			<script defer src="<?php echo $baseurl;?>js/swiper-bundle.min.js"></script>
 			<!-- Swiper JS -->

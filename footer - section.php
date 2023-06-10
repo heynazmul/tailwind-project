@@ -86,11 +86,11 @@
 				<p>Save $3 With App & New User only</p>
 				<div class=" grid grid-cols-12 gap-3">
 					<div class="col-span-6">
-						<img src="images/demo/qr.png" alt="">
+						<img src="<?php echo $baseurl;?>images/demo/qr.png" alt="">
 					</div>
 					<div class="col-span-6">
-						<img src="images/demo/app-store.png" alt="">
-						<img src="images/demo/play-store.png" alt="" class="mt-3">
+						<img src="<?php echo $baseurl;?>images/demo/app-store.png" alt="">
+						<img src="<?php echo $baseurl;?>images/demo/play-store.png" alt="" class="mt-3">
 					</div>
 				</div>
 			</div>

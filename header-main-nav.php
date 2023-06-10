@@ -3,8 +3,7 @@
     Mobile menu, show/hide based on mobile menu state.
   -->
 <!-- mobile navBar -->
-<section class="px-4 sm:px-8 md:px-16 lg:px-28 mx-auto ">
-    <div x-data="{ open: false }" @keydown.window.escape="open = false" class=" my-5 mr-2 lg:hidden">
+    <div x-data="{ open: false }" @keydown.window.escape="open = false" class=" px-4 sm:px-8 md:px-16 lg:px-28 mx-auto my-5 mr-2 lg:hidden">
         <div class="flex items-center justify-between">
             <div>
                 <a href="#">
@@ -156,7 +155,7 @@
     </div>
 
     <!-- desktop navbar -->
-    <div class="sticky top-0 z-50 " x-data="Components.popover({ open: true, focus: true })" x-init="init()" @keydown.escape="onEscape" @close-popover-group.window="onClosePopoverGroup">
+    <div class="sticky top-0 z-50 px-4 sm:px-8 md:px-16 lg:px-28 mx-auto " x-data="Components.popover({ open: true, focus: true })" x-init="init()" @keydown.escape="onEscape" @close-popover-group.window="onClosePopoverGroup">
         <div class=" lg:max-w-8xl hidden lg:block">
             <div class="p-4 flex items-center justify-between bg-gray-100 rounded-lg">
                 <!-- icon/ logo -->
@@ -304,7 +303,7 @@
                                     </a>
                                 </li>
                                 <li class="border-b px-4 py-2">
-                                    <a href="<?php $baseurl;?>cart/index.php"class="text-md font-medium hover:text-red-500">
+                                    <a href="<?php $baseurl;?>wishlist/index.php"class="text-md font-medium hover:text-red-500">
                                         Cart
                                     </a>
                                 </li>
@@ -448,5 +447,4 @@
             </div>
         </div>
     </div>
-</section>
 

@@ -23,12 +23,12 @@
 		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
         <title>Nazmul Hossain</title>
-		<!-- <style>
+		<style>
 			section{
 				padding-top:100px;
 				padding-bottom:75px;
 			}
-		</style> -->
+		</style> 
     </head>
 	<body >
 		<?php include 'header-top-nav.php';?>

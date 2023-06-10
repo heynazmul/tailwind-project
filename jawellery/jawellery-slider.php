@@ -27,7 +27,7 @@
     left: 1em;
 }
 </style>
-<section class="splide mt-[20px] sm:container sm:mx-auto" aria-label="Splide Basic HTML Example">
+<section class="splide mt-[20px] sm:container sm:mx-auto px-16 lg:px-20" aria-label="Splide Basic HTML Example">
 	<!-- Arrow Start -->
 	<div class="splide__arrows absolute top-0 right-[10%]">
 		<button class="splide__arrow splide__arrow--prev">
@@ -41,61 +41,45 @@
 	<!-- Arrow End -->
 
 	<!-- Slider Section -->
-	<div class="splide__track pt-10">
+	<div  class="splide__track pt-10">
 		<div class="splide__list h-36">
 			<div class="splide__slide border m-4 ">
 			  <div class="flex justify-center flex-col py-5 items-center">
-				<img class="h-12" src="images/demo/category-1.png" alt="" />
+				<img class="h-12" src="<?php echo $baseurl;?>images/demo/jewelry-13.png" alt="" />
 				<div class="mt-2">
-					<h4 class="text-sm font-bold">Phone</h4>
+					<h4 class="text-sm font-bold">Base mattel</h4>
 				</div>
 			  </div>
 			</div>
 			<div class="splide__slide border m-4 ">
 			  <div class="flex justify-center flex-col py-5 items-center">
-				<img class="h-12" src="images/demo/category-2.png" alt="" />
+				<img class="h-12" src="<?php echo $baseurl;?>images/demo/jewelry-12.png" alt="" />
 				<div class="mt-2">
-					<h4 class="text-sm font-bold">Phone</h4>
+					<h4 class="text-sm font-bold">Base mattel</h4>
 				</div>
 			  </div>
 			</div>
 			<div class="splide__slide border m-4 ">
 			  <div class="flex justify-center flex-col py-5 items-center">
-				<img class="h-12" src="images/demo/category-3.png" alt="" />
+				<img class="h-12" src="<?php echo $baseurl;?>images/demo/jewelry-11.png" alt="" />
 				<div class="mt-2">
-					<h4 class="text-sm font-bold">Phone</h4>
+					<h4 class="text-sm font-bold">Base mattel</h4>
 				</div>
 			  </div>
 			</div>
 			<div class="splide__slide border m-4 ">
 			  <div class="flex justify-center flex-col py-5 items-center">
-				<img class="h-12" src="images/demo/category-4.png" alt="" />
+				<img class="h-12" src="<?php echo $baseurl;?>images/demo/jewelry-12.png" alt="" />
 				<div class="mt-2">
-					<h4 class="text-sm font-bold">Phone</h4>
+					<h4 class="text-sm font-bold">Base mattel</h4>
 				</div>
 			  </div>
 			</div>
 			<div class="splide__slide border m-4 ">
 			  <div class="flex justify-center flex-col py-5 items-center">
-				<img class="h-12" src="images/demo/category-5.png" alt="" />
+				<img class="h-12" src="<?php echo $baseurl;?>images/demo/jewelry-12.png" alt="" />
 				<div class="mt-2">
-					<h4 class="text-sm font-bold">Phone</h4>
-				</div>
-			  </div>
-			</div>
-			<div class="splide__slide border m-4 ">
-			  <div class="flex justify-center flex-col py-5 items-center">
-				<img class="h-12" src="images/demo/category-6.png" alt="" />
-				<div class="mt-2">
-					<h4 class="text-sm font-bold">Phone</h4>
-				</div>
-			  </div>
-			</div>
-			<div class="splide__slide border m-4 ">
-			  <div class="flex justify-center flex-col py-5 items-center">
-				<img class="h-12" src="images/demo/category-1.png" alt="" />
-				<div class="mt-2">
-					<h4 class="text-sm font-bold">Phone</h4>
+					<h4 class="text-sm font-bold">Base mattel</h4>
 				</div>
 			  </div>
 			</div>
