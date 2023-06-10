@@ -1,19 +1,17 @@
-<?php include('baseurl.php'); ?>
-		<?php include ('header.php');?>
-			<?php include('slider.php');?>
-			<?php include('category-slider.php');?>
-			<?php include('headphone.php');?>
-			<?php //include('card.php');?>
-			<?php //include('testmonial.php');?>
-			<?php include('product.php');?>
-            <?php include('arrivals.php');?>
-            <?php include('user.php');?>
-            <?php include('whyus.php');?>
-            <?php include('card-image.php');?>
-            <?php include('newsletter.php');?>
-            <?php include('Popular-Cate.php');?>
-			<?php include('store.php');?>
-		<?php include('footer.php');?>
+<?php
+	include ('../baseurl.php');
+	?>
+		<!--header-->
+		<?php include ('../header.php');?>
+			<?php include ('slider.php');?>
+			<?php include ('nft-category.php');?>
+			<?php include ('nft-seller-slider.php');?>
+			<?php include ('nft-arrival.php');?>
+			<?php include ('most-sold.php');?>
+			<?php include ('buy-nft.php');?>
+			<?php include ('nft-video.php');?>
+			<?php include ('nft-news.php');?>
+		<?php include ('../footer.php');?>
 			<script defer src="<?php echo $baseurl;?>js/swiper-bundle.min.js"></script>
 			<!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -93,3 +91,13 @@
 	  loop: true,
     });
   </script>
+<!--offer slider-->
+<script>
+    var swiper = new Swiper("#offerSlider", {
+      navigation: {
+        nextEl: ".button-next",
+        prevEl: ".button-prev",
+      },
+		loop:true,
+    });
+</script>

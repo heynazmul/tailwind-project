@@ -4,7 +4,7 @@
 			<div class="relative overflow-hidden">
 			  <a class=" block bg-center rounded group" href="">
 				<img class=" scale-100 group-hover:scale-125   duration-500 rounded " src="images/demo/poster-01.png" alt="project01">
-				<div class="inset-0 inset-y-1/4 w-2/4 top-50 bottom-50 absolute my-auto left-1/3 pl-14 ">
+				<div class="inset-0 inset-y-1/4 w-2/4 top-50 bottom-50 absolute my-auto left-1/3 pl-10 ">
 					<p class="text-4xl font-semibold tracking-wide  text-white mb-2">Rich Sound for less,</p>
 					<p class="text-slate-400 group-hover:text-white mb-3  duration-500">collection</p>
 				</div>

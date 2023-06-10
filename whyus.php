@@ -11,7 +11,7 @@
 				<p class="text-4xl">Why people chose us</p>
 			</div>
 		</div>
-		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 items-center justify-center mt-5">
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5  items-center justify-center mt-5">
 			<div class="my-1 mx-2 px-8 py-4 hover:m-0 hover:px-10 hover:py-5 transition-all duraiton-700 border-1 flex justify-center  rounded-md relative flex flex-col text-center border box-shadow-lg
 			border-1 ">
             <!-- card haeder -->

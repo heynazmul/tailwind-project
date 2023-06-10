@@ -1,4 +1,3 @@
 <?php
-	$baseurl='http://localhost/Build-By-Tailwind/layouts/'; ## dev from won
-	//$baseurl='http://localhost/study-files/git/nazmul-by-tailwind/layouts/'; ## for dev from rahman branch
-?>
+//$baseurl = 'http://localhost/Build-By-Tailwind/layouts/';
+$baseurl = 'http://localhost/study-files/Git/nazmul-by-tailwind/layouts/'; ##rahman

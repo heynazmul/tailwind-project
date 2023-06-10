@@ -1,5 +1,5 @@
 <section>
-	<div class="sm:container sm:mx-auto">
+	<div class="md:container md:mx-auto">
 		<div class="bg-[url('<?php echo $baseurl;?>images/demo/bg-image-5.jpg')] p-28 bg-no-repeat bg-center">
 			<div class="flex items-center gap-x-2 ">
 				<div class="flex bg-blue-500 w-7 h-7 items-center justify-center rounded-full shrink-0">
